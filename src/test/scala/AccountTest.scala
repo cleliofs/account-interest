@@ -66,7 +66,6 @@ class AccountTest extends FlatSpec {
 
   "A Set" should "contain not duplicates" in {
     val s = Set(1, 2, 3, 4, 5, 2, 1);
-    s.map(println)
     assert(false==s.contains(7))
     assert(true==s.contains(3))
     assert(5==s.size, s.size)
