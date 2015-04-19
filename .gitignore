@@ -7,3 +7,4 @@ out/
 *.exe
 *.o
 *.so
+.idea/
